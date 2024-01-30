@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    position: relative;
+    background: rgb(255, 255, 255) ;
+}
+nav{
+    display:block;
+    margin-left: auto;
+    width: 66px;
+}
+.botoes{
+    width: 50px;
+    padding: 8px;
+    border-radius: 50%;
+}
+#celular{
+    position: absolute;
+    left: 50%;
+    top: -50%;
+    transform: translate(-50%, 50%);
+}
+iframe{
+    display: block;
+    margin: auto;
+    width: 268px;
+}
